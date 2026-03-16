@@ -82,25 +82,49 @@ font-size:16px;
 
 /* ---------- Hero section ---------- */
 
+/* HERO */
+
 .hero{
 
-padding:140px 20px 100px 20px;
 text-align:center;
+padding:80px 20px 40px 20px;
 
 }
 
-.date{
 
-font-size:22px;
-letter-spacing:2px;
-margin-bottom:10px;
+/* Names */
+
+.names{
+
+font-family:'Playfair Display',serif;
+font-size:56px;
+margin-bottom:25px;
 
 }
 
-.subtitle{
+
+/* Date */
+
+.wedding-date{
+
+font-family:'Playfair Display',serif;
+font-size:52px;
+
+margin:10px 0;
+
+color:#6E7753;
+
+}
+
+/* Subtitle */
+
+.hero-subtitle{
 
 font-size:18px;
-opacity:0.7;
+opacity:0.75;
+
+margin-top:8px;
+margin-bottom: 0px;
 
 }
 
@@ -126,16 +150,6 @@ text-align:center;
 }
 
 
-/* ---------- Divider ---------- */
-
-.divider{
-
-margin:30px auto;
-width:160px;
-opacity:0.9;
-
-}
-
 
 /* ---------- Dresscode ---------- */
 
@@ -153,7 +167,8 @@ border-radius:12px;
 .button{
 
 display:inline-block;
-margin-top:20px;
+margin-top:10px;
+margin-bottom:10px;
 padding:14px 28px;
 
 background:#E58B8B;
@@ -186,4 +201,152 @@ padding:80px 20px;
 font-size:14px;
 opacity:0.7;
 
+}
+
+
+/* Couple photo */
+
+.photo-section{
+
+text-align:center;
+margin:40px auto;
+
+}
+
+.couple-photo{
+
+max-width:700px;
+width:90%;
+
+border-radius:18px;
+
+box-shadow:0 20px 40px rgba(0,0,0,0.08);
+
+opacity:0.9;
+
+}
+
+
+
+/* Countdown */
+
+.countdown-section{
+  text-align:center;
+  margin:10px auto 60px auto;
+}
+
+#countdown{
+
+display:flex;
+justify-content:center;
+gap:25px;
+margin-top:20px;
+
+}
+
+.countdown-title {
+  margin-top: 0px;
+}
+
+.time-box{
+
+background:white;
+
+padding:20px 25px;
+
+border-radius:12px;
+
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+
+}
+
+.time-box span{
+
+font-size:28px;
+font-weight:500;
+
+}
+
+
+
+/* Program timeline */
+
+.timeline{
+  text-align:center;
+  margin-top:0px;
+  margin-bottom:0px;
+  max-width:300px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.moment{
+    margin-top:0px;
+  margin-bottom:0px;
+  margin:10px 0;
+}
+
+.moment-title{
+  font-size:22px;
+  font-weight:500;
+  font-family:'Playfair Display', serif;
+  margin-bottom:0px;
+      margin-top:0px;
+  margin-bottom:0px;
+}
+
+.moment-time{
+        margin-top:0px;
+  margin-bottom:0px;
+  font-size:16px;
+  color:#6E7753;
+}
+
+.divider{
+  text-align:center;
+  font-size:22px;
+  color:#6E7753;
+  margin:0px 0;
+      margin-top:0px;
+  margin-bottom:0px;
+}
+
+a {
+  color:#6E7753;
+  text-decoration:none;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+
+.timeline-horizontal{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:18px;
+  margin-top:30px;
+  flex-wrap:wrap;
+}
+
+.timeline-horizontal .moment{
+  text-align:center;
+  min-width:90px;
+}
+
+.timeline-horizontal .moment-title{
+  font-family:'Playfair Display', serif;
+  font-size:20px;
+  margin-bottom:4px;
+}
+
+.timeline-horizontal .moment-time{
+  font-size:15px;
+  color:#6E7753;
+}
+
+.timeline-horizontal .divider{
+  font-size:20px;
+  color:#6E7753;
 }
